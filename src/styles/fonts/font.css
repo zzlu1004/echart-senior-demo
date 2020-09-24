@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('HelveticaNeue.ttc');
+}
+@font-face {
+  font-family: 'Hiragino Sans GB';
+  src: url('./HiraginoSansGB.ttc');
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}

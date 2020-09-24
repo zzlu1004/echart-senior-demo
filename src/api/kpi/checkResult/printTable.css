@@ -1,0 +1,111 @@
+.el-table--border {
+  border-right: none;
+  border-bottom: none;
+}
+.el-table--border, .el-table--group {
+  border: 1px solid #ebeef5;
+}
+.el-table--fit {
+  border-right: 0;
+  border-bottom: 0;
+}
+.el-table {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  font-size: 14px;
+  color: #606266;
+}
+.el-table, .el-table__expanded-cell {
+  background-color: #fff;
+}
+.el-table .hidden-columns {
+  position: absolute;
+  z-index: -1;
+}
+.el-pagination--small .arrow.disabled, .el-table .hidden-columns, .el-table td.is-hidden>*, .el-table th.is-hidden>*, .el-table--hidden {
+  visibility: hidden;
+}
+.el-table__footer-wrapper, .el-table__header-wrapper {
+  overflow: hidden;
+}
+.el-table__body-wrapper, .el-table__footer-wrapper, .el-table__header-wrapper {
+  width: 100%;
+}
+.el-table__body, .el-table__footer, .el-table__header {
+  table-layout: fixed;
+  border-collapse: separate;
+}
+.el-table thead {
+  color: red;
+  font-weight: 500;
+}
+.el-table thead tr, .el-table thead th {
+  background-color: #fcfcfc;
+}
+.el-table--scrollable-y .el-table__body-wrapper {
+  overflow-y: auto;
+}
+.el-table--scrollable-x .el-table__body-wrapper {
+  overflow-x: auto;
+}
+.el-table__body-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.el-table__body-wrapper, .el-table__footer-wrapper, .el-table__header-wrapper {
+  width: 100%;
+}
+.el-table th>.cell {
+  position: relative;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+}
+.el-table th div, .el-table th>.cell {
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+}
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell {
+  padding-left: 16px;
+}
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell {
+  padding-left: 16px;
+}
+.el-table .cell {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 23px;
+}
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell {
+  padding-left: 10px;
+}
+.el-table .cell, .el-table th div {
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.el-table th div {
+  line-height: 40px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.el-table thead.is-group th {
+  background-color: #fcfcfc;
+}
+.el-table td, .el-table th.is-leaf {
+  border-bottom: 1px solid #ebeef5;
+}
+.el-table td, .el-table th {
+  padding: 8px 0;
+}

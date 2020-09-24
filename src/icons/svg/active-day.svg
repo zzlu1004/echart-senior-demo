@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="52px" viewBox="0 0 40 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title></title>
+    <desc>Created with Sketch.</desc>
+    <g id="二期" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="系统管理-员额法官首页-" transform="translate(-395.000000, -1230.000000)">
+            <g id="Group-9" transform="translate(23.000000, 964.000000)">
+                <g id="方案信息" transform="translate(187.000000, 63.000000)">
+                    <g id="Group-13" transform="translate(185.000000, 167.000000)">
+                        <g id="分组" transform="translate(0.000000, 38.000000)">
+                            <path d="M2,4 L38,4 C39.1045695,4 40,4.8954305 40,6 L40,48 C40,49.1045695 39.1045695,50 38,50 L2,50 C0.8954305,50 1.3527075e-16,49.1045695 0,48 L0,6 C-1.3527075e-16,4.8954305 0.8954305,4 2,4 Z M20,12 C21.6568542,12 23,10.6568542 23,9 C23,7.34314575 21.6568542,6 20,6 C18.3431458,6 17,7.34314575 17,9 C17,10.6568542 18.3431458,12 20,12 Z" id="合并形状" fill="#FFA000"></path>
+                            <ellipse id="椭圆形" stroke="#FFA000" stroke-width="3" cx="20.5" cy="4" rx="3.5" ry="4"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

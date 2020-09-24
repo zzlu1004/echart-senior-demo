@@ -1,0 +1,163 @@
+.img-size{
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.table-fa thead tr{
+  /*background-color: #fcfcfc;*/
+}
+.table-fa{
+  table-layout:fixed;
+}
+.table-fa td{
+  min-width:36px;
+  /*min-height: 45px;*/
+}
+.table-fa tr{
+  /*min-height: 45px;*/
+}
+/*.table-fa td,*/
+/*.table-fa th{*/
+  /*border-bottom: 1px solid #666;*/
+  /*border-right: 1px solid #666;*/
+  /*padding: 8px 10px;*/
+  /*line-height: 1;*/
+/*}*/
+/*.table-fa th{*/
+  /*color: #404040;*/
+/*}*/
+/*.table-fa thead, .table-fa table {*/
+  /*border-top: 1px solid #666;*/
+  /*border-left: 1px solid #666;*/
+  /*border-spacing: 0;*/
+  /*text-align: left;*/
+/*}*/
+.img-box{
+  margin: 0 auto;
+  /*width: 98px;*/
+  height: 160px;
+}
+.height-panel{
+  /*min-height: 180px;*/
+}
+.right-align{
+  text-align:right;
+}
+.pl4{
+  padding-left:32px;
+}
+.py2{
+  padding-top:16px;
+  padding-bottom:16px;
+}
+.pb1{
+  padding-bottom:8px;
+}
+.mb2{
+  margin-bottom:16px;
+}
+.mt1{
+  margin-top:8px;
+}
+
+ .img-box{
+  display: inline-block;
+  margin: 0 auto;
+  height: 85px;
+  width: 85px;
+}
+  .height-panel{
+  min-height: 100px;
+}
+  .table-fa td{
+  min-width:36px;
+  font-size: 18px;
+  font-family: '宋体';
+  /*text-align: center;*/
+}
+  .table-fa td, .table-fa th {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 4px 8px;
+}
+  .table-fa .text-justify{
+  text-align-last:justify;
+  text-align:justify;
+  text-justify:distribute-all-lines;
+}
+  .mb2{
+  font-size: 16px;
+}
+  .title-hide{
+  display:none;
+}
+.table-fa{
+  width: 100%;
+  border: 2px solid #000;
+  height: auto;
+  overflow: hidden;
+}
+.table-tit{
+  text-align: center;
+  font-weight: 500;
+  font-family: '宋体';
+  font-size: 30px;
+}
+.label-long .el-form-item__label{
+  line-height: 40px;
+}
+
+.cadres .el-dialog__header{
+  text-align:center;
+  height: 55px;
+  line-height: 30px;
+}
+.cadres .el-dialog__body {
+  padding: 10px 86px 10px 78px!important;
+  color:#000;
+}
+.cadres .title-button{
+  top: -8px;
+  left: 40px;
+}
+.table-class{
+  width: 100.5%;
+  margin-top: -12px;
+  margin-bottom: -3px;
+}
+.table-fa td{
+  min-width:35px;
+  font-size: 18px;
+  font-family: '宋体';
+}
+  .table-fa td {
+  min-width: 28px!important;
+  font-size: 18px;
+}
+.center{
+  text-align: center;
+}
+.text-double{
+  padding: 2px!important;
+}
+.text-double2{
+  padding: 2px!important;
+}
+.text-double3{
+  letter-spacing:5px;
+}
+
+.health-cla{
+  min-width: 120px!important;
+}
+.long-cla{
+  width: 100px!important;
+}
+.jianli-height{
+  width: 100%;
+  height: auto;
+  line-height: 20px;
+  overflow: hidden;
+  margin-bottom: 2px;
+}

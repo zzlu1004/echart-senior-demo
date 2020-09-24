@@ -1,0 +1,39 @@
+/* Basscss Position */
+@import '../../variables.scss';
+
+.relative { position: relative }
+.absolute { position: absolute }
+.fixed    { position: fixed }
+
+.top-0    { top: $space-0 }
+.right-0  { right: $space-0 }
+.bottom-0 { bottom: $space-0 }
+.left-0   { left: $space-0 }
+
+.top-1    { top: $space-1 }
+.right-1  { right: $space-1 }
+.bottom-1 { bottom: $space-1 }
+.left-1   { left: $space-1 }
+
+.top-2    { top: $space-2 }
+.right-2  { right: $space-2 }
+.bottom-2 { bottom: $space-2 }
+.left-2   { left: $space-2 }
+
+.top-3    { top: $space-3 }
+.right-3  { right: $space-3 }
+.bottom-3 { bottom: $space-3 }
+.left-3   { left: $space-3 }
+
+.top-4    { top: $space-4 }
+.right-4  { right: $space-4 }
+.bottom-4 { bottom: $space-4 }
+.left-4   { left: $space-4 }
+
+.z1 { z-index: $z1 }
+.z2 { z-index: $z2 }
+.z3 { z-index: $z3 }
+.z4 { z-index: $z4 }
+
+
+

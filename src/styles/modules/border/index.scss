@@ -1,0 +1,95 @@
+/* Basscss Border */
+/* 边框名称简化 有border 改成 bd */
+
+  $border-color: #ebebeb;
+  $border-color-ebebeb: #ebebeb;
+  $border-width: 1px;
+  $border-radius: 3px;
+  $border-dashed: dashed;
+  $border-solid: solid;
+  $border-width2:2px;
+
+.bd {
+  border-style: $border-solid;
+  border-width: $border-width;
+  border-color: $border-color;
+}
+
+.bd-top {
+  border-top-style: $border-solid;
+  border-top-width: $border-width;
+  border-color: $border-color;
+}
+
+.bd-right {
+  border-right-style: $border-solid;
+  border-right-width: $border-width;
+  border-color: $border-color;
+}
+
+/* 边框虚线 */
+.bd-bottom {
+  border-bottom-style: $border-solid;
+  border-color: $border-color;
+  border-bottom-width: $border-width;
+}
+
+.bd-left {
+  border-left-style: $border-solid;
+  border-color: $border-color;
+  border-left-width: $border-width;
+}
+
+.bd-dashed {
+  border-style: $border-dashed;
+  border-width: $border-width;
+  border-color: $border-color;
+}
+
+.bd-dashed-top {
+  border-top-style: $border-dashed;
+  border-top-width: $border-width;
+  border-color: $border-color;
+}
+
+.bd-dashed-right {
+  border-right-style: $border-dashed;
+  border-right-width: $border-width;
+  border-color: $border-color;
+}
+
+.bd-dashed-bottom {
+  border-bottom-style: $border-dashed;
+  border-color: $border-color;
+  border-bottom-width: $border-width;
+}
+
+.bd-dashed-left {
+  border-left-style: $border-dashed;
+  border-color: $border-color;
+  border-left-width: $border-width;
+}
+
+.bd-none { border: 0 !important }
+
+.rounded { border-radius: $border-radius }
+.circle  { border-radius: 50% }
+
+.rounded-top    { border-radius: $border-radius $border-radius 0 0 }
+.rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
+.rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
+.rounded-left   { border-radius: $border-radius 0 0 $border-radius }
+
+.not-rounded { border-radius: 0 }
+
+.bd-width2 {
+  border-width: $border-width2;
+}
+.bd-radius-3-4{
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:2px;
+}
+.bd-radius-1-2{
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+}

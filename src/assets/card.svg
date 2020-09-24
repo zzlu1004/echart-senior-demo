@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="98px" viewBox="0 0 395 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.5935389%" y1="50%" x2="-2.22044605e-14%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#66DDEE" offset="0%"></stop>
+            <stop stop-color="#22BBEE" offset="20.8324535%"></stop>
+            <stop stop-color="#2266EE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="387" height="90" rx="4"></rect>
+        <filter x="-1.8%" y="-5.6%" width="103.6%" height="115.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0392156863   0 0 0 0 0.184313725   0 0 0 0 0.439215686  0 0 0 0.103338068 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="127001-人物画像" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="人物画像备份-7" transform="translate(-140.000000, -1006.000000)">
+            <g id="编组" transform="translate(120.000000, 944.000000)">
+                <g id="编组-16" transform="translate(24.000000, 64.000000)">
+                    <g id="椭圆形">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <g id="蒙版">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="编组-21" mask="url(#mask-3)" stroke="#FFFFFF">
+                            <g transform="translate(230.000000, -14.000000)">
+                                <circle id="椭圆形" stroke-width="14" opacity="0.100841704" cx="130" cy="97" r="35"></circle>
+                                <circle id="椭圆形备份" stroke-width="7" opacity="0.100841704" cx="60.5" cy="17.5" r="17.5"></circle>
+                                <circle id="椭圆形备份-2" stroke-width="4" opacity="0.100841704" cx="12" cy="85" r="12"></circle>
+                                <path d="M128.33697,28.2800712 L134.988337,38.4527506 C135.290574,38.9149962 135.160862,39.5347321 134.698617,39.8369696 C134.535923,39.9433465 134.345752,40 134.151367,40 L120.848633,40 C120.296348,40 119.848633,39.5522847 119.848633,39 C119.848633,38.8056154 119.905286,38.6154447 120.011663,38.4527506 L126.66303,28.2800712 C126.965268,27.8178256 127.585004,27.6881134 128.047249,27.9903509 C128.162784,28.0658928 128.261428,28.1645365 128.33697,28.2800712 Z" id="三角形" stroke-width="2" opacity="0.102841332" transform="translate(127.500000, 33.500000) rotate(-132.000000) translate(-127.500000, -33.500000) "></path>
+                                <polygon id="多边形" stroke-width="2" opacity="0.104727" transform="translate(72.500000, 66.500000) rotate(-23.000000) translate(-72.500000, -66.500000) " points="72.5 60 78.6818674 64.4913895 76.3206041 71.7586105 68.6793959 71.7586105 66.3181326 64.4913895"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

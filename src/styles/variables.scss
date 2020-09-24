@@ -1,0 +1,113 @@
+$c-title: #404040; //标题黑
+$c-text: #666; //正文
+$c-subTitle:#8b8b8b; //次级文字，默认图标按钮颜色
+$c-placeholder:#adadad; //输入框提示文字
+$c-forbid:#cacaca; //失效置灰颜色
+$c-link: #1b95e7;        // 有链接的字体颜色
+$c-link-hover: #1b95e7;  // 有链接的字体,移入等颜色
+$c-text-bg: #fff;        // 有背景色的字体颜色
+
+$bg: #fcfcfc; //背景灰
+$bg-panel: #fcfcfc;  // 区域填充色
+$bg-title: #fcfcfc;  // 区域填充色，类似标题头部的背景色
+$bg-content: #fff;   // 文本填充色
+// 分割线,边框线
+$c-divider: #ebebeb; // 分割线
+$c-border: #d9d9d9 ; // 边框线
+// 主题色
+$primary: #1b95e7;   // 主题色
+$danger: #ff0400;    // 错误信息
+$warning: #ffde2e;   // 告警信息
+$info: #5a5e66;      // 一般提示
+$success: #00cc3e;   // 成功信息
+/*常用颜色*/
+$white: #fff;
+$red: #f04134;
+$yellow:#ffff00;
+$gray:#5a5e66;
+$bg-gray:#f6f6f6;
+$bg-fcfcfc:#fcfcfc;
+$green:#00A854;
+$bg-hover:rgba(237,246,253,0.2);
+
+//按钮四种默认颜色
+$c-default: #ffffff;
+$c-primary: #1b95e7;
+$c-success: #00A854;
+$c-warning: #ffBf00;
+$c-danger: #f04134;
+//按钮hover颜色
+$h-default: #ecf5ff;
+$h-primary: #66b1ff;
+$h-success: #00924c;
+$h-warning: #e09a00;
+$h-danger: #d73435;
+//按钮禁用颜色
+$f-default: #e6e6e6;
+$f-primary: #84c6f2;
+$f-success: #76d0a3;
+$f-warning: #ffdd76;
+$f-danger: #f79992;
+//sidebar
+$menuBg:#2f91d2;
+$subMenuBg:#2f91d2;
+$menuHover:#54aae5;
+// padding margin
+$space-0: 0;
+$space-1: 0.5rem;
+$space-2: 1rem;
+$space-3: 1.5rem;
+$space-4: 2rem;
+$space-5: 2.5rem;
+$space-6: 3rem;
+$space-7: 3.5rem;
+$space-8: 4rem;
+$space-10: 5rem;
+$space-12: 6rem;
+$space-14: 7rem;
+$space-16: 8rem;
+// z-index
+$z1: 1;
+$z2: 2;
+$z3: 3;
+$z4: 4;
+// sidebar
+$menu-top-bg: #2f91d2; // 菜单背景色
+$menu-top-item: #2f91d2; // 顶部菜单每个模块的背景色
+$menu-top-hover: #2f91d2; // 菜单移上去颜色
+$menu-top-item-select: #3ca4eb; // 顶部菜单每个模块的背景色
+$menu-sidebar-bg: #07374f; // 侧边栏背景色
+$menu-sidebar-child-bg: #07374f; // 侧边栏二级菜单背景色，悬浮菜单背景色
+$menu-sidebar-item: #2f91d2; // 侧边栏单个模块的颜色
+$menu-sidebar-item-hover: #29658D; // 侧边栏单个模块的移上去背景色
+$menu-sidebar-item-select: #3ca4eb; // 二级菜单选中颜色
+$menu-select-border: #ffde2e; // 菜单选中的边框色，可以上下边框也可以是左右边框
+$menu-text-color: #fff; // 顶部菜单的字体颜色
+$menu-text-hover: #fff; // 顶部菜单移上去的字体颜色
+$menu-text-select: #fff; // 顶部菜单选中的字体颜色
+$menu-sidebar-text-color: #fff; // 侧边菜单的字体颜色，移上去菜单颜色
+$menu-sidebar-text-hover: #bbb; // 侧边菜单移上去的字体颜色
+$menu-sidebar-text-select: #fff; // 侧边菜单选中的字体颜色
+$menu-sidebar-second-text: #666; // 侧边菜单选中的字体颜色
+$top-right-width: 200px;
+$sidebar-left-width: 224px; // 左侧菜单栏宽度
+$toggle-bg: rgba(197,197,197,0.3);
+$toggle-text: #adadad;
+
+// 边框
+$border-width: 1px;            // 边框的粗细
+$border-radius: 2px;           // 圆角
+$border-dashed: dashed;        // 虚线边框
+$border-solid: solid;          // 实线边框
+$border-width-bold: 2px;       // 加粗的边框
+$box-shadow: 0px 0px 5px #ddd; // 边框阴影
+// 行高
+$line-height-text: 1.8;    // 文本之间的行高
+$line-height-normal: 40px; // 输入框等同行文字等行高
+$line-height-small: 32px;  // 类似分页栏等高度小的行高
+$line-height-title: 48px;  // 卡片标题栏的行高
+$height-normal: 40px;      // 输入框等同行文字等内容高度
+$height-small: 32px;       // 类似分页栏等高度小的高度
+$height-title: 48px;       // 标题等高度
+$letter-spacing: 0;        // 字间距
+$bold-font-weight: 700;    // 加粗

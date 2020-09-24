@@ -1,0 +1,159 @@
+<template>
+  <div class="fd-echart-table">
+    <el-row :gutter="20">
+      <el-col :span="inline ? 9 : 24">
+        <div class="relative">
+          <fd-echart :option="echartOpt" :height="height"></fd-echart>
+        </div>
+      </el-col>
+      <el-col :span="inline ? 14 : 24">
+        <fd-table :data="tableData"
+                  :height="tableHeight"
+                  :className="inline? 'mt2' : 'mt1'">
+          <el-table-column
+            label=""
+            align="right"
+            width="35">
+            <template slot-scope="scope">
+              <span class="circular-span" :style="{'backgroundColor': scope.row.itemStyle.color}"></span>
+            </template>
+          </el-table-column>
+          <el-table-column
+            v-for="item of columns"
+            :key="item.prop"
+            :label="item.label"
+            :prop="item.prop"
+            :align="item.align">
+            <template slot-scope="scope">
+              <span :class="item.className">{{scope.row[item.prop]}}</span>
+            </template>
+          </el-table-column>
+          <el-table-column
+            label=""
+            width="20">
+          </el-table-column>
+        </fd-table>
+      </el-col>
+    </el-row>
+  </div>
+</template>
+
+<script>
+  import FdEchart from 'fd/echarts/echarts'
+  import FdTable from 'fd/table/src/fdTable'
+  export default {
+    name: 'FdEchartTable',
+    components: {
+      FdEchart, FdTable
+    },
+    props: {
+      // echarts图的配置
+      echartOpt: {
+        type: Object
+      },
+      // echarts高度
+      height: {
+        type: String
+      },
+      // 表格的高度
+      tableHeight: {
+        type: String
+      },
+      // 表格的宽度
+      tableWidth: {
+        type: String
+      },
+      // 表格列的配置
+      columns: {
+        type: Array,
+        default: function() {
+          return []
+        }
+      },
+      // 表格列的配置
+      datas: {
+        type: Array
+      },
+      showMax: {
+        type: Boolean,
+        default: true
+      },
+      maxKey: {
+        type: String,
+        default: 'value'
+      },
+      inline: {
+        type: Boolean,
+        default: true
+      }
+    },
+    data() {
+      return {
+        tableData: []
+      }
+    },
+    computed: {
+    },
+    mounted() {
+      this.tableData = this.getMaxItem(this.datas)
+      this.echartOpt.data = this.datas
+    },
+    methods: {
+      getMaxItem(data) {
+        const colors = ['#453ee9', '#4461ea', '#00d1f7', '#2cd78e', '#f3bf56', '#704cff', '#879AFF', '#8A6192', '#FF736F', '#F2C500', '#355B68', '#00B9AB', '#87D4EC', '#F09E5E', '#A7689A']
+        const max = {}
+        const colorMap = {}
+        let dataColor = []
+        let index = 0
+        if (this.showMax) {
+          data.forEach((item) => {
+            const seriesName = item.seriesName
+            const colorName = seriesName || item.name
+            let color = ''
+            if (!colorMap[colorName]) {
+              color = colors[index++]
+              colorMap[colorName] = color
+            }
+            item.itemStyle = {
+              color: colorMap[colorName]
+            }
+            if (seriesName) {
+              if (!max[seriesName] || max[seriesName][this.maxKey] < item[this.maxKey]) {
+                max[seriesName] = item
+              }
+              item.itemStyle.opacity = 0.6
+            }
+          })
+          for (const key in max) {
+            dataColor.push(max[key])
+          }
+        } else {
+          dataColor = data
+        }
+        dataColor.forEach((item, index) => {
+          item.itemStyle = {
+            color: colorMap[item.seriesName] || colors[index]
+          }
+        })
+        return dataColor
+      }
+    },
+    watch: {
+      datas(data) {
+        this.tableData = this.getMaxItem(data)
+        this.echartOpt.data = data
+      }
+    }
+  }
+</script>
+
+<style lang="scss" scoped>
+.fd-echart-table{
+  .circular-span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+}
+</style>
